@@ -1,0 +1,21 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+@keyframes rotate{
+    0%, 100% {
+        transform: rotate(90deg);
+      }
+    50% {
+        transform: rotate(-90deg);
+      }
+    }
+    
+
+h2{
+    animation: rotate 2s infinite;
+}
